@@ -36,3 +36,7 @@ resource "azurerm_resource_group" "rg5" {
   name     = "rg-bhindi"
   location = "West US"
 }
+resource "azurerm_resource_group" "rg6" {
+  name     = "rg-tamatar"
+  location = "West US"
+}
